@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+$color-card: hsl(0, 0%, 100%);
+$color-background: hsl(212, 45%, 89%);
+$color-paragraph: hsl(220, 15%, 55%);
+$color-title: hsl(218, 44%, 22%);
+$font: 'Outfit', sans-serif;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $color-background;
+    font-family: $font;
+}

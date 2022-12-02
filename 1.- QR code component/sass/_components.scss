@@ -1,0 +1,50 @@
+@use "globals";
+
+.container {
+    width: 100%;
+    .card {
+        height: 95vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .content {
+            background-color: globals.$color-card;
+            border-radius: 1rem;
+            padding: 0.7rem;
+            width: 17rem;
+            .img {
+               width:100%;
+               border-radius: 1rem;
+            }
+            .description {
+                text-align: center;
+                padding: 0 0.4rem 0.5rem 0;
+                .title{
+                    font-weight: 700;
+                    font-size: 20px;
+                }
+    
+                .description {
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: globals.$color-paragraph;
+                }
+            }
+        }
+    }
+
+    .attribution {
+        text-align: center;
+        
+        a {
+            text-decoration: none;
+            color: blue;
+            &:hover {
+                color: rgb(0, 0, 180);
+            }
+            &:visited {
+                text-decoration: none;
+            }
+        }
+    }
+}
